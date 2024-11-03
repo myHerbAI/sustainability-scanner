@@ -1,0 +1,16 @@
+name: sustainability-scanner
+id: ari:cloud:compass:67089d24-a808-43fc-b21a-7240e68803c5:component/7650235b-1fb9-4e21-b2a8-9f79047496f0/38490f68-0135-43b2-a741-dceab9a046b8
+description: Runs AWS Sustainability Scanner against infrastructure-as-code.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/myHerbAI/sustainability-scanner
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+customFields: null
